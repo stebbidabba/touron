@@ -115,7 +115,7 @@ export default function AdminDashboard() {
               </div>
               
               <div className="bg-slate-800 rounded-xl p-6 border border-slate-700">
-                <h3 className="text-slate-400 text-sm font-medium mb-2">Today's Leads</h3>
+                <h3 className="text-slate-400 text-sm font-medium mb-2">Today&apos;s Leads</h3>
                 <div className="text-3xl font-bold text-emerald-400">{analytics.todayLeads}</div>
               </div>
               

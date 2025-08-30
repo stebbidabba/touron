@@ -136,7 +136,7 @@ export default function SocialProofSection({ travelerCount }: SocialProofSection
                 <div className="text-emerald-400 text-2xl mr-4 mt-1">🛡️</div>
                 <div>
                   <h4 className="text-lg font-semibold text-white mb-2">Perfect Itinerary or Full Refund</h4>
-                  <p className="text-slate-300 text-sm">If we don't deliver an itinerary that saves you time and money, we'll refund 100% and plan your next trip free.</p>
+                  <p className="text-slate-300 text-sm">If we don&apos;t deliver an itinerary that saves you time and money, we&apos;ll refund 100% and plan your next trip free.</p>
                 </div>
               </div>
               
@@ -161,7 +161,7 @@ export default function SocialProofSection({ travelerCount }: SocialProofSection
                   <div className="text-left">
                     <h5 className="text-white font-semibold">Alex Magnusson</h5>
                     <p className="text-slate-400 text-sm">Founder & Iceland Expert</p>
-                    <p className="text-emerald-400 text-xs">"I've saved travelers 20,000+ hours and $500K+ in mistakes"</p>
+                    <p className="text-emerald-400 text-xs">&quot;I&apos;ve saved travelers 20,000+ hours and $500K+ in mistakes&quot;</p>
                   </div>
                 </div>
               </div>

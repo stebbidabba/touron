@@ -5,7 +5,7 @@ export default function ProblemSection() {
     {
       stat: "73%",
       issue: "Weather Ruins Plans",
-      description: "Travelers arrive to find their outdoor activities cancelled due to storms they didn't know were coming",
+      description: "Travelers arrive to find their outdoor activities cancelled due to storms they didn&apos;t know were coming",
       icon: "🌨️"
     },
     {
@@ -17,7 +17,7 @@ export default function ProblemSection() {
     {
       stat: "81%",
       issue: "Language Barriers",
-      description: "Miss out on local experiences because they can't navigate Icelandic booking systems",
+      description: "Miss out on local experiences because they can&apos;t navigate Icelandic booking systems",
       icon: "🗣️"
     },
     {
@@ -36,7 +36,7 @@ export default function ProblemSection() {
             Why <span className="text-red-400">73% of Iceland Trips</span> Disappoint
           </h2>
           <p className="text-xl text-slate-300 max-w-3xl mx-auto">
-            Even experienced travelers struggle with Iceland's unique challenges
+            Even experienced travelers struggle with Iceland&apos;s unique challenges
           </p>
         </div>
 
@@ -64,19 +64,19 @@ export default function ProblemSection() {
               <div className="space-y-3 text-slate-300">
                 <p className="flex items-start">
                   <span className="text-red-500 mr-3 mt-1">•</span>
-                  <span>"We booked a glacier hike but it was cancelled due to wind - nobody told us to check weather warnings"</span>
+                  <span>&quot;We booked a glacier hike but it was cancelled due to wind - nobody told us to check weather warnings&quot;</span>
                 </p>
                 <p className="flex items-start">
                   <span className="text-red-500 mr-3 mt-1">•</span>
-                  <span>"Spent 3 hours driving in a blizzard because Google Maps doesn't account for Iceland's road conditions"</span>
+                  <span>&quot;Spent 3 hours driving in a blizzard because Google Maps doesn&apos;t account for Iceland&apos;s road conditions&quot;</span>
                 </p>
                 <p className="flex items-start">
                   <span className="text-red-500 mr-3 mt-1">•</span>
-                  <span>"Paid $200 for a 'Northern Lights tour' that was just a bus ride to a parking lot"</span>
+                  <span>&quot;Paid $200 for a &apos;Northern Lights tour&apos; that was just a bus ride to a parking lot&quot;</span>
                 </p>
                 <p className="flex items-start">
                   <span className="text-red-500 mr-3 mt-1">•</span>
-                  <span>"Couldn't book anything last minute because we don't speak Icelandic and websites were confusing"</span>
+                  <span>&quot;Couldn&apos;t book anything last minute because we don&apos;t speak Icelandic and websites were confusing&quot;</span>
                 </p>
               </div>
             </div>
@@ -109,7 +109,7 @@ export default function ProblemSection() {
 
         <div className="text-center mt-12">
           <p className="text-2xl text-slate-300 mb-6">
-            <span className="text-red-400 font-bold">Don't become another disappointment statistic.</span>
+            <span className="text-red-400 font-bold">Don&apos;t become another disappointment statistic.</span>
           </p>
           <button className="bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-4 px-8 rounded-lg text-xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
             Get Your Perfect Iceland Plan

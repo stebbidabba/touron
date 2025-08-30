@@ -17,7 +17,7 @@ export default function Home() {
   const [showItinerary, setShowItinerary] = useState(false);
   const [showExitIntent, setShowExitIntent] = useState(false);
   const [travelerCount, setTravelerCount] = useState(847);
-  const scrollPercentage = useScrollTracking();
+  useScrollTracking();
 
   useEffect(() => {
     const handleMouseLeave = (e: MouseEvent) => {

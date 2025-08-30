@@ -44,7 +44,7 @@ export default function FOMOSection() {
                   26-40
                 </div>
                 <div className="text-slate-300">
-                  <span className="text-red-400 font-semibold">Hours 26-40:</span> Realizing their itinerary doesn't account for daylight hours or weather conditions
+                  <span className="text-red-400 font-semibold">Hours 26-40:</span> Realizing their itinerary doesn&apos;t account for daylight hours or weather conditions
                 </div>
               </div>
               
@@ -115,7 +115,7 @@ export default function FOMOSection() {
                 <div className="text-orange-400 text-2xl mr-4 mt-1">🌌</div>
                 <div>
                   <h4 className="text-lg font-semibold text-orange-400 mb-2">Missing Northern Lights</h4>
-                  <p className="text-slate-300">Because they didn't know about cloud cover patterns and optimal viewing locations</p>
+                  <p className="text-slate-300">Because they didn&apos;t know about cloud cover patterns and optimal viewing locations</p>
                 </div>
               </div>
               
@@ -123,7 +123,7 @@ export default function FOMOSection() {
                 <div className="text-orange-400 text-2xl mr-4 mt-1">🏙️</div>
                 <div>
                   <h4 className="text-lg font-semibold text-orange-400 mb-2">Stuck in Reykjavik</h4>
-                  <p className="text-slate-300">Because they didn't book popular tours in advance and everything's sold out</p>
+                  <p className="text-slate-300">Because they didn&apos;t book popular tours in advance and everything&apos;s sold out</p>
                 </div>
               </div>
             </div>
@@ -133,7 +133,7 @@ export default function FOMOSection() {
                 <div className="text-orange-400 text-2xl mr-4 mt-1">💸</div>
                 <div>
                   <h4 className="text-lg font-semibold text-orange-400 mb-2">Paying 40% More</h4>
-                  <p className="text-slate-300">Because they didn't know about seasonal pricing and booking strategies</p>
+                  <p className="text-slate-300">Because they didn&apos;t know about seasonal pricing and booking strategies</p>
                 </div>
               </div>
               
@@ -141,7 +141,7 @@ export default function FOMOSection() {
                 <div className="text-orange-400 text-2xl mr-4 mt-1">⏰</div>
                 <div>
                   <h4 className="text-lg font-semibold text-orange-400 mb-2">Wasting 2 Days Driving</h4>
-                  <p className="text-slate-300">Because they didn't optimize routes and underestimated winter driving conditions</p>
+                  <p className="text-slate-300">Because they didn&apos;t optimize routes and underestimated winter driving conditions</p>
                 </div>
               </div>
             </div>
@@ -150,7 +150,7 @@ export default function FOMOSection() {
 
         <div className="text-center">
           <button className="bg-orange-600 hover:bg-orange-700 text-white font-bold py-4 px-8 rounded-lg text-xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
-            Don't Let This Be You - Get Your Plan Now
+            Don&apos;t Let This Be You - Get Your Plan Now
           </button>
           <p className="text-slate-400 mt-4 text-sm">Join the smart travelers who planned ahead</p>
         </div>

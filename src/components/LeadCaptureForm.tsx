@@ -103,7 +103,7 @@ export default function LeadCaptureForm() {
             <div className="space-y-3 text-emerald-100 text-left max-w-md mx-auto">
               <div className="flex items-start">
                 <span className="text-emerald-300 mr-3">1.</span>
-                <span>You'll receive your planning guide within 5 minutes</span>
+                <span>You&apos;ll receive your planning guide within 5 minutes</span>
               </div>
               <div className="flex items-start">
                 <span className="text-emerald-300 mr-3">2.</span>
@@ -111,7 +111,7 @@ export default function LeadCaptureForm() {
               </div>
               <div className="flex items-start">
                 <span className="text-emerald-300 mr-3">3.</span>
-                <span>We'll send you a custom itinerary preview</span>
+                <span>We&apos;ll send you a custom itinerary preview</span>
               </div>
             </div>
           </div>

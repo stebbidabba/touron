@@ -104,14 +104,14 @@ export default function ScarcitySection() {
           <div className="bg-slate-800 rounded-xl p-6 border border-slate-700 text-center">
             <div className="text-3xl mb-4">⚡</div>
             <h4 className="text-lg font-bold text-white mb-3">Peak Season Rush</h4>
-            <p className="text-slate-300 text-sm">December is prime Northern Lights season. Hotels and tours book up 6+ months in advance - don't wait.</p>
+            <p className="text-slate-300 text-sm">December is prime Northern Lights season. Hotels and tours book up 6+ months in advance - don&apos;t wait.</p>
           </div>
         </div>
 
         <div className="bg-slate-900 rounded-2xl p-8 border border-slate-700">
           <div className="text-center">
             <h3 className="text-2xl font-bold text-white mb-4">
-              What Happens When We're Full?
+              What Happens When We&apos;re Full?
             </h3>
             <div className="grid md:grid-cols-2 gap-6 mb-8">
               <div className="text-left">
@@ -167,7 +167,7 @@ export default function ScarcitySection() {
               Secure My Spot Now
             </button>
             <p className="text-slate-400 mt-4 text-sm">
-              Free consultation • No commitment until you're 100% satisfied
+              Free consultation • No commitment until you&apos;re 100% satisfied
             </p>
           </div>
         </div>

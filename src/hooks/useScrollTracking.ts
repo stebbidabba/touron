@@ -31,9 +31,9 @@ export function useScrollTracking() {
   return scrollPercentage;
 }
 
-function throttle(func: Function, limit: number) {
+function throttle(func: (...args: unknown[]) => void, limit: number) {
   let inThrottle: boolean;
-  return function(this: any, ...args: any[]) {
+  return function(this: unknown, ...args: unknown[]) {
     if (!inThrottle) {
       func.apply(this, args);
       inThrottle = true;

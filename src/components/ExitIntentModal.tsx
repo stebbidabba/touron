@@ -52,7 +52,7 @@ export default function ExitIntentModal({ onClose }: ExitIntentModalProps) {
     <div className="fixed inset-0 bg-black bg-opacity-75 z-50 flex items-center justify-center p-4">
       <div className="bg-slate-900 rounded-2xl max-w-md w-full border-2 border-red-500 overflow-hidden">
         <div className="bg-red-600 px-6 py-4 flex items-center justify-between">
-          <h2 className="text-xl font-bold text-white">Wait! Don't Leave Empty-Handed</h2>
+          <h2 className="text-xl font-bold text-white">Wait! Don&apos;t Leave Empty-Handed</h2>
           <button
             onClick={onClose}
             className="text-white hover:text-red-200 text-2xl font-bold"
@@ -65,10 +65,10 @@ export default function ExitIntentModal({ onClose }: ExitIntentModalProps) {
           <div className="text-center mb-6">
             <div className="text-4xl mb-4">😰</div>
             <h3 className="text-xl font-bold text-white mb-3">
-              Don't Join the 73% Who Regret Their Iceland Planning
+              Don&apos;t Join the 73% Who Regret Their Iceland Planning
             </h3>
             <p className="text-slate-300 text-sm mb-4">
-              Before you go, grab our free "Iceland Planning Mistakes" checklist that's saved travelers $1,000+ in avoidable errors.
+              Before you go, grab our free &quot;Iceland Planning Mistakes&quot; checklist that&apos;s saved travelers $1,000+ in avoidable errors.
             </p>
           </div>
 

@@ -113,7 +113,7 @@ export default function SolutionSection() {
         <div className="bg-slate-900 rounded-2xl p-8 border border-slate-700">
           <div className="text-center">
             <h3 className="text-3xl font-bold text-white mb-4">
-              The Time & Money You'll Save
+              The Time & Money You&apos;ll Save
             </h3>
             
             <div className="grid md:grid-cols-3 gap-8 mb-8">

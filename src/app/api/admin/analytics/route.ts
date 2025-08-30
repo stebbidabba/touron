@@ -108,7 +108,7 @@ export async function GET(request: NextRequest) {
       return NextResponse.json(generateMockData());
     }
 
-    const headers = rows[0];
+    const headerRow = rows[0];
     const leads = rows.slice(1).map(row => ({
       timestamp: row[0] || '',
       type: row[1] || '',
