@@ -1,4 +1,4 @@
-import { NextRequest, NextResponse } from 'next/server';
+import { NextResponse } from 'next/server';
 import { GoogleAuth } from 'google-auth-library';
 import { sheets_v4 } from 'googleapis';
 
@@ -88,7 +88,7 @@ function generateMockData() {
   };
 }
 
-export async function GET(request: NextRequest) {
+export async function GET() {
   try {
     if (!SHEET_ID || !SERVICE_ACCOUNT_EMAIL || !PRIVATE_KEY) {
       console.log('Google Sheets not configured, returning mock data');
@@ -108,7 +108,7 @@ export async function GET(request: NextRequest) {
       return NextResponse.json(generateMockData());
     }
 
-    const headerRow = rows[0];
+    // const headerRow = rows[0]; // Headers not used in mock implementation
     const leads = rows.slice(1).map(row => ({
       timestamp: row[0] || '',
       type: row[1] || '',

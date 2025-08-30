@@ -51,7 +51,7 @@ export default function SocialProofSection({ travelerCount }: SocialProofSection
     }, 4000);
     
     return () => clearInterval(interval);
-  }, []);
+  }, [recentBookings]);
 
   return (
     <section className="bg-slate-900 py-20 px-4 sm:px-6 lg:px-8">
