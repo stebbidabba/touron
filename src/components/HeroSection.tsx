@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import Image from 'next/image';
 
 interface HeroSectionProps {
   onShowItinerary: () => void;
@@ -19,7 +20,7 @@ export default function HeroSection({ onShowItinerary, travelerCount }: HeroSect
           <div className="text-center lg:text-left">
             <div className="inline-flex items-center bg-emerald-600/20 text-emerald-300 px-4 py-2 rounded-full text-sm font-medium mb-6">
               <span className="w-2 h-2 bg-emerald-400 rounded-full mr-2 animate-pulse"></span>
-              Join {travelerCount}+ travelers
+              Join 200+ travelers
             </div>
             
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-white leading-tight mb-6">
@@ -30,7 +31,7 @@ export default function HeroSection({ onShowItinerary, travelerCount }: HeroSect
             </h1>
             
             <p className="text-xl text-slate-300 mb-8 leading-relaxed">
-              Join {travelerCount}+ travelers who saved 38 hours and $1,200 per trip with AI-powered planning
+              Join 200+ travelers who saved 38 hours and $1,200 per trip with AI-powered planning
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
@@ -62,6 +63,16 @@ export default function HeroSection({ onShowItinerary, travelerCount }: HeroSect
           </div>
           
           <div className="space-y-8">
+            <div className="relative">
+              <Image
+                src="/images/hero image.avif"
+                alt="Iceland landscape - Ring Road adventure"
+                width={600}
+                height={400}
+                className="rounded-2xl shadow-2xl object-cover w-full"
+                priority
+              />
+            </div>
             <div className="bg-slate-800 rounded-2xl shadow-2xl border border-slate-700 overflow-hidden">
               <div className="bg-slate-700 px-6 py-4 border-b border-slate-600">
                 <h3 className="text-lg font-semibold text-white">Traditional Planning Chaos</h3>
