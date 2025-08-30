@@ -53,7 +53,6 @@ export default function Home() {
       <div className="pt-10">
         <HeroSection 
           onShowItinerary={handleShowItinerary}
-          travelerCount={travelerCount}
         />
         <FOMOSection />
         <ProblemSection />
