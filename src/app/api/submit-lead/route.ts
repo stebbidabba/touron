@@ -16,8 +16,7 @@ async function getGoogleSheetsClient() {
     scopes: ['https://www.googleapis.com/auth/spreadsheets'],
   });
 
-  const authClient = await auth.getClient();
-  return new sheets_v4.Sheets({ auth: authClient });
+  return new sheets_v4.Sheets({ auth });
 }
 
 async function sendConfirmationEmail(email: string, type: string) {
